@@ -14,11 +14,11 @@ const DepositSchema = mongoose.Schema({
   current: {
     type: Number,
     required: true
-  }
+  },
   goal: {
     type: Number,
     required: true
   }
 });
 
-module.exports = Deposit = mongoose.model("Deposit", DepositSchema;
+module.exports = Deposit = mongoose.model("Deposit", DepositSchema);
